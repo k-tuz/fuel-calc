@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import {useStore} from '@/stores/store'
-import AppTop from "@/components/AppTop.vue"
-import AppFueling from "@/components/AppFueling.vue"
-import AppRouting from "@/components/AppRouting.vue"
-import AppTabs from '@/components/AppTabs.vue'
+import {useStore} from '../stores/store'
+import AppTop from "./AppTop.vue"
+import AppFueling from "./AppFueling.vue"
+import AppRouting from "./AppRouting.vue"
+import AppTabs from './AppTabs.vue'
 
 const store = useStore()
 

@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
-import { useFueling } from '@/stores/fueling'
-import { useRoutes } from '@/stores/routes'
+import { useFueling } from './fueling'
+import { useRoutes } from './routes'
 
 export const useStore = defineStore('store', () => {
   const fueling = useFueling()

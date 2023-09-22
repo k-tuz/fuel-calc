@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import AppFueling from '@/components/AppFueling.vue'
-import AppRouting from '@/components/AppRouting.vue'
+import AppFueling from './AppFueling.vue'
+import AppRouting from './AppRouting.vue'
 
-import { useStore } from '@/stores/store'
+import { useStore } from '../stores/store'
 
 import { useModal } from 'vue-final-modal'
 import ModalRangeRoad from './ModalRangeRoad.vue'

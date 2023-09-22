@@ -2,7 +2,7 @@
 import IconCrane from './icons/IconCrane.vue'
 import IconTrash from './icons/IconTrash.vue'
 
-import { useStore } from '@/stores/store'
+import { useStore } from '../stores/store'
 
 const store = useStore()
 

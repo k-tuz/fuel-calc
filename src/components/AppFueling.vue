@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useFueling } from "@/stores/fueling";
-import { useStore } from '@/stores/store'
-import Input from "@/components/Input.vue";
+import { useFueling } from "../stores/fueling";
+import { useStore } from '../stores/store'
+import Input from "./Input.vue";
 
 const fueling = useFueling()
 const store = useStore()

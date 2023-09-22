@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import IconCar from './icons/IconCar.vue'
-import {useStore} from '@/stores/store'
+import {useStore} from '../stores/store'
 
 const store = useStore()
 
