@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { useRoutes } from '../stores/routes'
-import { useStore } from '../stores/store'
-import Input from './Input.vue'
+import { useRoutes } from '@/stores/routes'
+import { useStore } from '@/stores/store'
+import Input from '@/components/Input.vue'
 
 import { useModal } from 'vue-final-modal'
-import ModalRangeRoad from './ModalRangeRoad.vue'
+import ModalRangeRoad from '@/components/ModalRangeRoad.vue'
 
 const routes = useRoutes()
 const store = useStore()

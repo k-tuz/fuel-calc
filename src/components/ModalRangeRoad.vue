@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { VueFinalModal } from 'vue-final-modal'
-import { useStore } from '../stores/store'
+import { useStore } from '@/stores/store'
 
 const store = useStore()
 

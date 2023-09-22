@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue"
-import { useStore } from "../stores/store";
-import Input from "./Input.vue";
+import { useStore } from "@/stores/store";
+import Input from "@/components/Input.vue";
 
 const store = useStore()
 

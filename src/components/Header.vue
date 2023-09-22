@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import IconCrane from './icons/IconCrane.vue'
-import IconTrash from './icons/IconTrash.vue'
+import IconCrane from '@/components/icons/IconCrane.vue'
+import IconTrash from '@/components/icons/IconTrash.vue'
 
-import { useStore } from '../stores/store'
+import { useStore } from '@/stores/store'
 
 const store = useStore()
 

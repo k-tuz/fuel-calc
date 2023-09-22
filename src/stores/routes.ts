@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { useStore } from './store'
+import { useStore } from '@/stores/store'
 import { onMounted, ref, watch } from 'vue'
 
 export const useRoutes = defineStore('routes', ()=>{
